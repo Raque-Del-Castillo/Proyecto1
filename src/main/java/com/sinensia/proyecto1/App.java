@@ -10,7 +10,7 @@ import main.java.com.sinensia.proyecto1.plataforma.Serie;
 
 public class App {
     static final Logger logger = Logger.getLogger(App.class.getName());
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         /*
         *  El envio para este primer programa es el que se encuentra en el folder plataforma,
@@ -36,6 +36,18 @@ public class App {
         capitulos.add(new Capitulos(21, "La Batalla", "Desenlace temporada 3"));
 
         juegoDeTronos.setCapitulos(capitulos);
+
+        try {
+            for(int i = 0; i < 4; i++){
+                logger.info(capitulos.get(i).getNombre());
+            }
+        } catch (IndexOutOfBoundsException e){
+            logger.info("No hay mas datos almacenados.");
+        } catch (Exception e) {
+            logger.info("Error inesperado.");
+        }
+        
+        
 
     }
 }

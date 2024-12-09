@@ -1,7 +1,7 @@
 package main.java.com.sinensia.proyecto2.patrones;
 
 /**
- * Ejemplo inicializacion correcta patron singleton
+ * Ejemplo inicializacion correcta patron singleton.
  */
 public class InicializacionSingleton {
 

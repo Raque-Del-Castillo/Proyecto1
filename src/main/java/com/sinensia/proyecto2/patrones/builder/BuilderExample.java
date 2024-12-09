@@ -3,7 +3,7 @@ package main.java.com.sinensia.proyecto2.patrones.builder;
 import java.util.logging.Logger;
 
 /**
- * Cliente pide una pizza
+ * Cliente pide una pizza.
  */
 class BuilderExample {
 

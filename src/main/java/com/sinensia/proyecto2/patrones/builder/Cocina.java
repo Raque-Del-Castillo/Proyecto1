@@ -1,7 +1,7 @@
 package main.java.com.sinensia.proyecto2.patrones.builder;
 
 /**
- * Director
+ * Director.
  */
 public class Cocina {
 

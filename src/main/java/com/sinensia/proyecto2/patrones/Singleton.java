@@ -1,7 +1,7 @@
 package main.java.com.sinensia.proyecto2.patrones;
 
 /**
- * Codigo explicacion patron Singleton
+ * Codigo explicacion patron Singleton.
  */
 public class Singleton {
 

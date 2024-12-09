@@ -1,5 +1,8 @@
 package main.java.com.sinensia.proyecto2.patrones.builder;
 
+/**
+ * ConcreteBuilder.
+ */
 class CarbonaraPizzaBuilder extends PizzaBuilder{
 
     public CarbonaraPizzaBuilder(){ super.pizza = new Pizza(); }
